@@ -1,0 +1,22 @@
+:root {
+  --gold: #c9a94d; 
+  --text-light: #f0f0f0;
+  --bg-dark: #000000;
+  --gold-hover: #b8963e;
+
+}
+
+  
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+  body {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--bg-dark);
+    color: var(--gold);
+  }
+  

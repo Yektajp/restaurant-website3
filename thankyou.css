@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: var(--bg-dark);
+  color: var(--gold);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: var(--bg-dark);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--gold);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--text-light);
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.message-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(201, 169, 77, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+.message-box h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--gold);
+}
+
+.message-box p {
+  font-size: 18px;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.home-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: var(--gold);
+  color: var(--bg-dark);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #b58c3b;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: var(--gold);
+  border-top: 1px solid var(--gold);
+}

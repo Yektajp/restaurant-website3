@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: var(--bg-dark);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--gold);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--text-light);
+}
+
+.hero {
+  height: 90vh;
+  background: url('../images/restaurant-hero.png') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: var(--gold);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: var(--text-light);
+}
+
+.btn {
+  padding: 12px 30px;
+  background-color: var(--gold);
+  color: var(--bg-dark);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--gold-hover);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: var(--gold);
+  border-top: 1px solid var(--gold);
+  margin-top: 60px;
+
+}
